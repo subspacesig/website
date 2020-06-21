@@ -3,7 +3,7 @@ title: Subspace Signal
 subtitle:
 email: sayhi@subspacesignal.com
 description: Digital product development with our lean team of engineers.
-baseurl: '/website' # the subpath of your site, e.g. /blog
+baseurl: '' # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
 street_address:
