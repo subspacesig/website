@@ -22,48 +22,29 @@
 			</form>
 		</section>
 		<section class="split">
-			<section>
+			<section style="padding-bottom:48px;">
 				<div class="contact-method">
-					<span class="icon alt fa-envelope"></span>
-					<h3>Email</h3>
-					<a href="#">{{ site.email }}</a>
+					<span class="icon alt fa-envelope"><span style="padding-left:10px;" /><a href="#">{{ site.email }}</a></span>
+				</div>
+			</section>
+			<section style="padding-bottom:48px;">
+				<div class="contact-method">
+					<span class="icon alt fa-home"><span style="padding-left:10px;" />{{ site.city }}, {{ site.state }}.</span>
 				</div>
 			</section>
 			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-phone"></span>
-					<h3>Phone</h3>
-					<span>{{ site.phone }}</span>
-				</div>
-			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-home"></span>
-					<h3>Address</h3>
-					<span>
-					{% if site.street_address %}
-					    {{ site.street_address }}<br />
-					{% endif %}
-					{% if site.city %}
-					    {{ site.city }},
-					{% endif %}
-					{% if site.state %}
-					    {{ site.state }} 
-					{% endif %}
-					{% if site.zip_code %}
-					    {{ site.zip_code }}<br />
-					{% endif %}
-					{% if site.country %}
-					    {{ site.country }}
-					{% endif %}
-					</span>
-				</div>
+				<ul class="icons">
+					<li><a href="{{ site.linkedin_url }}" class="icon alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+					<li><a href="{{ site.facebook_url }}" class="icon alt fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+					<li><a href="{{ site.twitter_url }}" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+				</ul>
 			</section>
 		</section>
 	</div>
 </section>
 
 <!-- Footer -->
+	{% comment %}
 	<footer id="footer">
 		<div class="inner">
 			<ul class="icons">
@@ -102,11 +83,10 @@
 				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
 				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
 				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
-
 			</ul>
 		</div>
 	</footer>
-
+	{% endcomment %}
 </div>
 
 <!-- Scripts -->
