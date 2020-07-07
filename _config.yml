@@ -60,15 +60,15 @@ clients:
 
 # social settings
 500px_url:
-facebook_url: https://www.facebook.com/georgeslabreche
+facebook_url: https://www.facebook.com/SubspaceSignal
 github_url:
 gitlab_url:
 googleplus_url:
 instagram_url:
-linkedin_url: https://www.linkedin.com/in/georgeslabreche/
+linkedin_url: https://www.linkedin.com/company/SubspaceSignal
 pinterest_url:
 slack_url:
-twitter_url: https://www.twitter.com/georgeslabreche
+twitter_url: https://twitter.com/SubspaceSig
 
 # build settings
 markdown: kramdown
