@@ -1,0 +1,32 @@
+#clients-section{
+    background-color: #7f97d0;
+}
+
+.clients-slider .owl-item img{
+    opacity: 0.8;
+    filter: grayscale(100);
+}
+
+.clients-slider .owl-item img:hover {
+    opacity: 1;
+    filter: grayscale(0);
+}
+
+.client-logo-container {
+    height: 200px; /* Can be anything */
+    position: relative;
+    margin: 20px;
+}
+
+.client-logo-img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}

@@ -29,11 +29,31 @@
 
     <!-- Main -->
     <div id="main">
-
-        <!-- One -->
+        <!-- Tiles -->
         {% include tiles.html %}
-
     </div>
+
+    <!-- Clients section -->
+    <section id="clients-section" class="major">
+        <div class="inner">
+
+            <header class="major">
+                <h2>{{ site.clients.title }}</h2>
+            </header>
+            <div class="content">
+                <div class="owl-carousel owl-theme clients-slider">
+                    {% for logo in site.clients.logos %}
+                    <div class="client-logo-container">
+                        <a href="{{ logo.url }}" target=" _blank" title="{{ logo.name }}">
+                            <img src="assets/images/clients/{{ logo.image }}" class="client-logo-img">
+                        </a>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+    
 
     {% include footer.html %}
 

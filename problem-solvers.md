@@ -5,7 +5,7 @@ description: Driven by challenge.
 nav-menu: false
 ---
 
-We're an invite-only close-knit network of digital professionals who have grown to appreciate and respect each other's reliability and skills. The teams we deploy are custom built for our clients' needs and benefit from collaborative acumen forged over 15 years of teamwork.
+We're an invite-only close-knit network of digital professionals who have grown to appreciate and respect each other's reliability and skills. The teams we deploy are custom built for our clients' needs and benefit from collaborative acumen forged over years of teamwork.
 
 <!-- Content -->
 <style>

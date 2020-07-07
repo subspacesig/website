@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: Getting you to Prod
+landing-title: Pioneering remote software engineering
 description: null
 image: null
 author: null

@@ -15,7 +15,41 @@ phone:
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 7
+
+clients:
+  title: We've worked with
+  logos:
+    - name: Amnesty International
+      image: amnesty.png
+      url: https://amnesty.org
+    - name: International Budget Partnership
+      image: international-budget-partnership.png
+      url: https://www.internationalbudget.org/
+    - name: European Space Agency
+      image: european-space-agency.png
+      url: https://www.esa.int/
+    - name: Deutsche Bank
+      image: deutsche-bank.png
+      url: https://www.db.com/usa/
+    - name: Societe Generale
+      image: societe-generale.png
+      url: https://www.societegenerale.com/en/home
+    - name: New York Magazine
+      image: new-york-magazine.png
+      url: https://nymag.com/
+    - name: Government of Canada
+      image: government-of-canada.png
+      url: https://www.canada.ca/en.html
+    - name: US State Department
+      image: us-state-department.png
+      url: https://www.state.gov/
+    - name: German Research Center for Artificial Intelligence
+      image: german-research-center-for-artificial-intelligence.png
+      url: https://www.dfki.de/en/web/
+    - name: University of Turin
+      image: university-of-turin.png
+      url: https://en.unito.it/
 
 # social settings
 500px_url:

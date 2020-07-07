@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Battle-Hardened
-description: 'Handpicked experts, no compromise.'
+description: Handpicked experts, no compromise.
 nav-menu: false
 ---
 
