@@ -1,4 +1,6 @@
 <head>
+	{% include analytics.html %}
+
 	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -12,4 +14,5 @@
 	<link rel="stylesheet" href="{{ "assets/vendor/owlcarousel/assets/owl.carousel.min.css" | relative_url }}" />
 
 	{% include metatags.html %}
+
 </head>
