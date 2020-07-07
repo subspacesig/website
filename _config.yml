@@ -29,6 +29,9 @@ clients:
     - name: European Space Agency
       image: european-space-agency.png
       url: https://www.esa.int/
+    - name: European Space Agency Phi Lab
+      image: esa-philab.png
+      url: https://blogs.esa.int/philab/
     - name: Deutsche Bank
       image: deutsche-bank.png
       url: https://www.db.com/usa/

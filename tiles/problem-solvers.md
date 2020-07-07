@@ -47,7 +47,7 @@ p.bio{
     <img class="rounded" src="/assets/images/profiles/kevin-cheng.jpg" alt="Kevin Cheng" />
     <p class="name">Kevin Cheng</p>
     <p class="title">Product Development</p>
-    <p class="bio">Over 15 years of experience working in digital product development within a variety of industries including finance, media, and retail in both client and agency environments. Kevin is always on the lookout for the next interesting problem to solve no matter how ambiguous or challenging the ask. He is a maker by nature and loves being involved during the entire product development lifecycle, all the way to product refinement. Kevin approaches problems with an empathetic mindset, figuring out solutions that will provide value all while delighting users.
+    <p class="bio">Kevin has over 15 years of experience working in digital product development within a variety of industries including finance, media, and retail in both client and agency environments. He is always on the lookout for the next interesting problem to solve no matter how ambiguous or challenging the ask. Kevin is a maker by nature and loves being involved during the entire product development lifecycle, all the way to product refinement. He approaches problems with an empathetic mindset, figuring out solutions that will provide value all while delighting users.
     </p>
   </div>
   <div class="profile 6u$ 12u$(small)">
