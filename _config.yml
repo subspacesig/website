@@ -57,6 +57,9 @@ clients:
     - name: University of Turin
       image: university-of-turin.png
       url: https://en.unito.it/
+    - name: European Commission
+      image: european-commission.png
+      url: https://ec.europa.eu/info/index_en
 
 # social settings
 500px_url:
