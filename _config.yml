@@ -60,6 +60,9 @@ clients:
     - name: European Commission
       image: european-commission.png
       url: https://ec.europa.eu/info/index_en
+    - name: United Nations Development Programme
+      image: united-nations-development-programme.png
+      url: https://www.undp.org/content/undp/en/home.html
 
 # social settings
 500px_url:
