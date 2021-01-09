@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: Pioneering remote software engineering
+landing-title: Redefining remote software engineering
 description: null
 image: null
 author: null
