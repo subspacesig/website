@@ -71,3 +71,24 @@ Credits:
 ```
 
 Repository [Jekyll logo](https://github.com/jekyll/brand) icon licensed under a [Creative Commons Attribution 4.0 International License](http://choosealicense.com/licenses/cc-by-4.0/).
+
+# Local Preview
+
+Build the image and serve the site on port 4123:
+
+```bash
+docker build -t subspacesignal-website .
+docker run --rm -p 4123:4000 subspacesignal-website
+```
+
+Open http://localhost:4123. Rebuild the image after each change.
+
+# Social Card
+
+`_social-card/card.html` is the source of `assets/images/social/subspace-signal.png`, the 1200x630 image for link previews. Jekyll skips the folder. After a headline change, edit the HTML, render it with headless Chrome and bump the `?v=` number in `_includes/metatags.html`:
+
+```bash
+"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --hide-scrollbars \
+  --virtual-time-budget=5000 --window-size=1200,630 \
+  --screenshot=assets/images/social/subspace-signal.png "file://$PWD/_social-card/card.html"
+```

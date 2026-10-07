@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: Redefining remote software engineering
+landing-title: Senior engineers with AI agents
 description: null
 image: null
 author: null

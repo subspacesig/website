@@ -2,7 +2,9 @@
 title: Subspace Signal
 subtitle:
 email: sayhi@subspacesignal.com
-description: Digital product development with our lean team of engineers.
+# Form ID from formspree.io (the part after /f/). Leave empty to post to the legacy email endpoint.
+formspree_form_id:
+description: Custom software built faster and for less.
 baseurl: '' # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
@@ -14,8 +16,8 @@ country:
 phone:
 
 meta:
-  title: Redefining remote software engineering
-  description: Digital product development with our lean team of engineers.
+  title: Senior engineers with AI agents
+  description: Custom software built faster and for less.
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -74,7 +76,6 @@ instagram_url:
 linkedin_url: https://www.linkedin.com/company/SubspaceSignal
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/SubspaceSig
 
 # build settings
 markdown: kramdown
